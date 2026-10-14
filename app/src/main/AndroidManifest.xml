@@ -101,7 +101,7 @@
         android:required="false" />
 
     <permission
-        android:name="com.opentasker.permission.AUTOMATION"
+        android:name="com.opentasker.app.btfix.permission.AUTOMATION"
         android:description="@string/permission_automation_description"
         android:label="@string/permission_automation_label"
         android:protectionLevel="signature" />
@@ -454,7 +454,7 @@
             android:name="com.opentasker.core.external.AutomationTargetReceiver"
             android:exported="true"
             android:intentMatchingFlags="enforceIntentFilter"
-            android:permission="com.opentasker.permission.AUTOMATION">
+            android:permission="com.opentasker.app.btfix.permission.AUTOMATION">
             <intent-filter>
                 <action android:name="com.opentasker.action.RUN_TASK" />
                 <action android:name="com.opentasker.action.SET_PROFILE_ENABLED" />

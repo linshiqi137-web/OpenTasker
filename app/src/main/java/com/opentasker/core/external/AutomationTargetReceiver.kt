@@ -29,7 +29,7 @@ enum class InternalTaskRunSource(
 }
 
 object AutomationTargetContract {
-    const val PERMISSION = "com.opentasker.permission.AUTOMATION"
+    const val PERMISSION = "com.opentasker.app.btfix.permission.AUTOMATION"
 
     // Home Assistant Companion notification commands use these field names when a
     // command_broadcast_intent action targets this receiver. They are aliases for the
