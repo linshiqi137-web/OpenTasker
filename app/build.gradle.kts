@@ -239,6 +239,8 @@ android {
 
     buildTypes {
         getByName("debug") {
+            applicationIdSuffix = ".btfix"
+            versionNameSuffix = "-btfix"
             isPseudoLocalesEnabled = true
         }
     release {

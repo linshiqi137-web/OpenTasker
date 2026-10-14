@@ -158,7 +158,7 @@ class AutomationService : Service() {
                             this,
                             BluetoothContextEvents.receiver,
                             BluetoothContextEvents.intentFilter(),
-                            ContextCompat.RECEIVER_NOT_EXPORTED,
+                            ContextCompat.RECEIVER_EXPORTED,
                         )
                         true
                     },
